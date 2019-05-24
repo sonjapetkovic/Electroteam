@@ -1,0 +1,45 @@
+footer{
+    background-color: #394B50;
+    color: #fff;
+    .btn{
+        background-color: $primary;
+        color:#fff;
+        
+    }
+    .fa-size{
+        font-size: 30px;
+    }
+    .fa-size2{
+        font-size:20px; 
+    }
+    
+    h5.b-name{
+       font-family: $font-pacifico;
+        
+    }
+    h5.open-s{
+        font-family: $font-open-sans;
+    }
+    .footer2{
+        background-color: black;
+        
+        .fa{
+           
+            height: 50px;
+            width: 50px;
+            background-color: #2C3B42;
+            line-height:50px;
+            transition:0.5s;
+            text-align:center;
+            
+                &:hover{
+                background-color: $primary;
+            }
+        }
+    }
+    .color-red{
+        color: red;
+       
+    }
+}
+

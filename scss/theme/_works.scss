@@ -1,0 +1,16 @@
+
+
+ul{
+    text-aligne:center;
+    li{
+        a:hover{
+            background-color: darken($primary, 15%);
+            color:#fff;
+            border-radius: 5px;
+            padding: 10px;
+            
+        }
+        
+        
+    }
+}

@@ -1,0 +1,57 @@
+
+header.header-active{
+    background: rgba(0,0,0,0.8);
+}
+   header{
+    transition:0.5s linear;
+    .navbar-brand{
+        max-width: 50%;
+    }
+    
+    //brand-logo
+    .navbar-brand{
+        font-family: $font-pacifico;
+        font-size: 30px;
+    }
+    .navbar-toggler{
+        border-color:$secondary!important;
+    }
+    .hamburger-inner, .hamburger-inner::after, .hamburger-inner::before {
+        background-color:  $blue;
+    }
+    .hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner::after, .hamburger.is-active .hamburger-inner::before {
+         background-color:  $blue;
+    }
+    .navbar-nav{
+        .nav-link{
+            font-size:1.1rem;
+            text-align: center;
+            border-bottom: 1px solid $white;
+            
+            &:hover, &.active{
+                border-bottom: 1px solid $secondary;
+            }
+        }
+    }
+   }//header end
+
+@media(min-width:768px){
+    header{
+        .navbar-nav{
+            .nav-link{
+                border-bottom: none;
+                &:hover,&.active{
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:768px){
+    header{
+         .hamburger {
+            display: none;
+        }
+    }
+}

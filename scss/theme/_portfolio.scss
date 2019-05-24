@@ -1,0 +1,24 @@
+.our-work{
+   .subtitle{
+        position: relative;
+        text-align:center;
+        max-width:200px;
+        margin:auto;
+        
+         &:after{
+            content: "";
+            display: block;
+            width: 100%;
+            height: 1px;
+            background: $secondary;
+            position: absolute;
+            left:0;
+            top:50%;
+            transform: translateY(-50%);
+        }
+        .fa{
+            position: relative;
+            z-index: 2;
+        }
+    }
+}
