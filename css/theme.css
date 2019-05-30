@@ -48,7 +48,9 @@ header {
   header .navbar-nav .nav-link {
     border-bottom: none; }
     header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
-      border-bottom: none; } }
+      border-bottom: none; }
+  header .navbar-dark .navbar-nav .nav-link {
+    background-color: transparent; } }
 @media (min-width: 768px) {
   header .hamburger {
     display: none; } }
