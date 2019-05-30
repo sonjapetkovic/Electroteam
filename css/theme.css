@@ -38,6 +38,11 @@ header {
     border-bottom: 1px solid #fff; }
     header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
       border-bottom: 1px solid #FFC155; }
+  header .navbar-dark .navbar-nav .nav-link {
+    color: white;
+    background-color: black; }
+    header .navbar-dark .navbar-nav .nav-link:hover {
+      background-color: #709DCA; }
 
 @media (min-width: 768px) {
   header .navbar-nav .nav-link {

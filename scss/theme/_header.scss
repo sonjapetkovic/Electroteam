@@ -33,6 +33,13 @@ header.header-active{
             }
         }
     }
+    .navbar-dark .navbar-nav .nav-link {
+    color: white;
+    background-color: black;
+    &:hover{
+        background-color: $blue;
+    }
+}
    }//header end
 
 @media(min-width:768px){
